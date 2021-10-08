@@ -24,10 +24,10 @@ Here is a Google Sheet with links to all of my projects:
 
 ## Wireframes
 
-[Mobile - Main Page](https://res.cloudinary.com/dzrsoqrvd/image/upload/v1633723857/portfolio/Mobile%20-%20Main%20Page.png)
-[Mobile - About](https://res.cloudinary.com/dzrsoqrvd/image/upload/v1633724204/portfolio/Mobile%20-%20About.png)
-[Desktop - Main Page](https://res.cloudinary.com/dzrsoqrvd/image/upload/v1633723857/portfolio/Desktop%20-%20Main%20Page.png)
-[Desktop - About](https://res.cloudinary.com/dzrsoqrvd/image/upload/v1633723857/portfolio/Desktop%20-%20About.png)
++ [Mobile - Main Page](https://res.cloudinary.com/dzrsoqrvd/image/upload/v1633723857/portfolio/Mobile%20-%20Main%20Page.png)
++ [Mobile - About](https://res.cloudinary.com/dzrsoqrvd/image/upload/v1633724204/portfolio/Mobile%20-%20About.png)
++ [Desktop - Main Page](https://res.cloudinary.com/dzrsoqrvd/image/upload/v1633723857/portfolio/Desktop%20-%20Main%20Page.png)
++ [Desktop - About](https://res.cloudinary.com/dzrsoqrvd/image/upload/v1633723857/portfolio/Desktop%20-%20About.png)
 
 
 ## Time/Priority Matrix 
@@ -38,16 +38,16 @@ Here is a Google Sheet with links to all of my projects:
 
 #### MVP
 
--Site Design
--Initial HTML and Styling
--Hamburger Menu for Mobile
--Game Logic (what game TBD - connect 4, tic tac toe, etc)
--Responsive Design
++ Site Design
++ Initial HTML and Styling
++ Hamburger Menu for Mobile
++ Game Logic (what game TBD - connect 4, tic tac toe, etc)
++ Responsive Design
 
 #### PostMVP 
 
--Project Carousel
--Add search bar with keywords on the projects, and keywords for socials that link to contact page
++ Project Carousel
++ Add search bar with keywords on the projects, and keywords for socials that link to contact page
 
 ## Functional Components
 
