@@ -21,12 +21,14 @@ This is the portfolio I created for myself for my first major project at General
 ## Google Sheet
 
 Here is a Google Sheet with links to all of my projects:
-[Google Sheets Link]](https://docs.google.com/spreadsheets/d/10dseLqg5rq_-F-aNYAnlvRqAJIgtWsmZpOzLEzz__T8/edit?usp=sharing) 
+[Google Sheets Link](https://docs.google.com/spreadsheets/d/10dseLqg5rq_-F-aNYAnlvRqAJIgtWsmZpOzLEzz__T8/edit?usp=sharing) 
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
-
+[Mobile - Main Page](https://res.cloudinary.com/dzrsoqrvd/image/upload/v1633723857/portfolio/Mobile%20-%20Main%20Page.png)
+[Mobile - About](https://res.cloudinary.com/dzrsoqrvd/image/upload/v1633724204/portfolio/Mobile%20-%20About.png)
+[Desktop - Main Page](https://res.cloudinary.com/dzrsoqrvd/image/upload/v1633723857/portfolio/Desktop%20-%20Main%20Page.png)
+[Desktop - About](https://res.cloudinary.com/dzrsoqrvd/image/upload/v1633723857/portfolio/Desktop%20-%20About.png)
 
 
 ## Time/Priority Matrix 
@@ -56,8 +58,8 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### PostMVP 
 
--Desktop project hover info
--
+-Carousel
+-Add search bar with keywords on the projects, and keywords for socials that link to contact page
 
 ## Functional Components
 
