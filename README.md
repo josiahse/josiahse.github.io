@@ -5,7 +5,7 @@
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|10/8| Wireframes / Priority Matrix / Timeline | Incomplete
+|10/8| Wireframes / Priority Matrix / Timeline | Complete
 |10/11| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |10/12| MVP & Bug Fixes | Incomplete
 |10/13| pMVP Work | Incomplete
@@ -54,7 +54,7 @@ Here is a Google Sheet with links to all of my projects:
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Site Design | H | 2hr | hr |
+| Site Design | H | 2hr | 2hr |
 | Initial HTML and Styling | H | 2hr | hr |
 | Hamburger Menu for Mobile | H | 1hr | hr | 
 | Game Logic | H | 3hrs|  hr | 

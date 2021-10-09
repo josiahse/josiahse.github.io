@@ -1,0 +1,104 @@
+body {
+    background-color: #8a3a3a;
+    width: auto;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    top: 0;
+    color: white;
+    background-color: #302c2c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 152px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 32px;
+    font-size: 64px;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    color: white;
+    
+}
+
+.nav-box {
+    position: fixed;
+    width: 100%;
+    display: none;
+    background-color: #302c2c;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid white;
+    margin-top: -46px;
+    height: 90px;
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 22px;
+}
+
+i.fa-search {
+    font-size: 40px;
+    margin-right: 40px;
+}
+
+i.fa-bars {
+    font-size: 52px;
+    margin-right: 40px;
+}
+
+
+main {
+    font-family: Crimson Pro, serif;
+    margin-top: 200px;
+}
+
+.welcome {
+    background-color: #d1d1d1;
+}
+
+h3 {
+    font-size: 52px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.welcome-text {
+    font-size: 32px;
+    padding: 16px;
+}
+
+.projects {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.projImg {
+    width: 100%;
+}
+
+.projName{
+    background-color: #d1d1d1;
+    margin-top: -94px;
+    font-size: 44px;
+    height: 90px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    opacity: .5;
+    color: black;
+}

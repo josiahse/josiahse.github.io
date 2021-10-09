@@ -1,0 +1,81 @@
+body {
+    background-color: #8a3a3a;
+    width: auto;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    color: white;
+    background-color: #302c2c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 32px;
+    font-size: 40px;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-bar {
+    display: none;
+}
+
+i.fa-search {
+    font-size: 32px;
+    margin-right: 24px;
+}
+
+i.fa-bars {
+    font-size: 40px;
+    margin-right: 32px;
+}
+
+
+main {
+    font-family: Crimson Pro, serif;
+    margin-top: 128px;
+}
+
+.box {
+    background-color: #d1d1d1;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.welcome-text {
+    font-size: 28px;
+}
+
+.blurb {
+    font-size: 40px;
+    text-align: center;
+}
+
+.contact.email {
+    font-size: 32px;
+    text-align: center;
+}
+
+.socials-ul {
+    display: flex;
+    justify-content: center;
+}
+
+.LI {
+    width: 140px;
+}
