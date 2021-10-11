@@ -4,15 +4,18 @@ body {
 }
 
 header {
-    position: relative;
+    position: fixed;
     width: 100%;
     top: 0;
     color: white;
     background-color: #302c2c;
-    display: flex;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 2fr 1fr;
     align-items: center;
     justify-content: space-between;
     height: 152px;
+    z-index: 9999;
 }
 
 h1 {
@@ -21,24 +24,28 @@ h1 {
     font-size: 64px;
 }
 
-.nav {
+nav {
     display: flex;
     list-style-type: none;
     align-items: center;
+    justify-content: right;
     color: white;
     
 }
 
 .nav-box {
-    position: fixed;
-    width: 100%;
     display: none;
+}
+
+.show-nav {
     background-color: #302c2c;
     color: white;
+    grid-row: 2/3;
+    grid-column: 1/3;
     display: flex;
     justify-content: space-around;
     border-top: 1px solid white;
-    margin-top: -46px;
+    margin-top: -12px;
     height: 90px;
 }
 
@@ -61,8 +68,13 @@ i.fa-bars {
 
 
 main {
+    position: relative;
     font-family: Crimson Pro, serif;
-    margin-top: 200px;
+    margin-top: 170px;
+}
+
+.move-main {
+    margin-top: 260px;
 }
 
 .welcome {

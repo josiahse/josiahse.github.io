@@ -1,4 +1,5 @@
 $('.fa-bars').on('click', function(event){
     event.preventDefault;
-    $('.nav-box').toggle()
-})
+    $('.nav-box').toggleClass('show-nav')
+    $('main').toggleClass('move-main')
+});
