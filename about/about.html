@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Montserrat&display=swap" rel="stylesheet">
@@ -14,37 +15,38 @@
         <nav>
             <i class="fas fa-search"></i>
             <i class="fas fa-bars"></i>
-            <ul class='nav-bar'>
-                <li class="nav-links">Projects</li>
-                <li class="nav-links">About Me/Contact</li>
-            </ul>
         </nav>
+        <div class='nav-box'>
+            <a class="nav-links" href="../index.html">Projects</a>
+            <a class="nav-links" href=".">About Me & Contact</a>
+        </div>
     </header>
+    
     <main>
         <article class='box'>
             <h3>About Me</h3>
-            <p class='welcome-text'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            <p class='about-text'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
             aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
             occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
         </article>
 
         <article class='box'>
-            <p class="blurb">If you'd like to contact me feel free to reach out!</p>
+            <h3>Shoot me an email!</h3>
             <p class="contact email">josiah@josiahse.com</p>
         </article>
 
         <div class='socials box'>
-            <p class="blurb">Find me here!</p>
-            <ul class='socials-ul'>
-                <img class="GH" src="../images/GitHub-Mark-120px-plus.png">
-                <img class="LI" src="../images/LI-In-Bug.png">
-            </ul>
+            <h3>Find me here!</h3>
+            <div class='socials-ul'>
+                <img class="icon GH" src="../images/GitHub-Mark-120px-plus.png">
+                <img class="icon LI" src="../images/LI-In-Bug.png">
+            </div>
         </div>
     </main>
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
 </body>
