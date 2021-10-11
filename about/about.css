@@ -115,3 +115,24 @@ h3 {
     margin: 0 10px 10px 10px;
     height: 60px;
 }
+
+@media screen and (min-width: 992px) {
+    nav{
+        display: none;
+    }
+
+    header {
+        display: flex;
+        margin-left: -10px;
+    }
+
+    .nav-box {
+        display: flex;
+    }
+
+    main {
+        width: 600px;
+        margin: 0 auto;
+        margin-top: 74px;
+    }
+}

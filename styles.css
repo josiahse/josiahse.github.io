@@ -45,7 +45,6 @@ nav {
     justify-content: space-around;
     align-items: center;
     border-top: 1px solid white;
-    /* margin-top: -12px; */
     height: 50px;
 }
 
@@ -118,4 +117,41 @@ h3 {
     opacity: .5;
     color: black;
     border-radius: 0 0 30px 30px;
+}
+
+@media screen and (min-width: 992px) {
+    nav{
+        display: none;
+    }
+
+    header {
+        display: flex;
+        margin-left: -10px;
+    }
+
+    .nav-box {
+        display: flex;
+    }
+
+    main {
+        width: 900px;
+        margin: 0 auto;
+        margin-top: 74px;
+    }
+
+    .projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 16px;
+    }
+
+    .project {
+        /* width: 400px; */
+        justify-self: center;
+    }
+
+    .proj5 {
+        grid-column: 1 / 3;
+        width: 442px;
+    }
 }
