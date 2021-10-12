@@ -6,11 +6,16 @@
 |  Day | Deliverable | Status
 |---|---| ---|
 |10/8| Wireframes / Priority Matrix / Timeline | Complete
-|10/11| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|10/12| MVP & Bug Fixes | Incomplete
+|10/11| Core Application Structure (HTML, CSS, etc.) | Complete
+|10/12| MVP & Bug Fixes* | Complete
 |10/13| pMVP Work | Incomplete
 |10/14| Project Descriptions & Final Touches | Incomplete
 |10/15| Present | Incomplete
+
+## To-Do's
++ Github page linking
++ Search
++ Project Description
 
 
 ## Project Description
@@ -55,21 +60,21 @@ Here is a Google Sheet with links to all of my projects:
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Site Design | H | 2hr | 2hr |
-| Initial HTML and Styling | H | 2hr | hr |
-| Hamburger Menu for Mobile | H | 1hr | hr | 
-| Game Logic | H | 3hrs|  hr | 
-| Responsive Design | H | 2hr | hr | hr |
-| Total | H | 10hrs| hrs |
+| Initial HTML and Styling | H | 2hr | 3hr |
+| Hamburger Menu for Mobile | H | 1hr | 2hr | 
+| Game Logic | H | 3hrs|  3hr | 
+| Responsive Design | H | 2hr | 2hr |
+| Total | H | 10hrs| 12hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: |
-| Project Carousel | M | 2hr | hr |
+| Project Carousel | M | 2hr | .75hr |
 | Search | M | 3hr | hr |
 | Total | H | 5hrs| hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and their role in the project. 
+jQuery is used for the desktop design's slideshow and for the hamburger menu for the mobile design.
 
 ## Code Snippet
 
