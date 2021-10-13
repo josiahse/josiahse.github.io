@@ -11,10 +11,11 @@ const switchSlide = (dir) => {
     $(`.proj${slideIndex}`).toggleClass('show-slide');
     slideIndex += dir;
     //enable proper looping of slides
-    if (slideIndex === 5){
+    lastSlideIndex = parseInt($('.projects').find('>li:last-of-type').attr('class').at(-1));
+    if (slideIndex === lastSlideIndex + 1){
         slideIndex = 1;
     } else if (slideIndex === 0) {
-        slideIndex = 4;
+        slideIndex = lastSlideIndex;
     }
     $(`.proj${slideIndex}`).toggleClass('show-slide');
 }
