@@ -13,7 +13,6 @@
 |10/15| Present | Incomplete
 
 ## To-Do's
-+ Github page linking
 + Search
 + Project Description
 
