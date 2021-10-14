@@ -129,12 +129,13 @@ a:hover {
 
 .projName {
 	text-decoration: underline;
-	padding-top: 6px;
+	padding-top: 10px;
 }
 
 .projDesc {
 	text-decoration: none;
 	padding: 6px;
+	padding-bottom: 16px;
 }
 
 .prev,
