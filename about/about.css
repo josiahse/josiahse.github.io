@@ -65,6 +65,17 @@ i.fa-bars {
     margin-right: 24px;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	cursor: pointer;
+}
 
 main {
     position: relative;
