@@ -8,9 +8,7 @@ header {
 	top: 0;
 	color: white;
 	background-color: #302c2c;
-	display: grid;
-	grid-template-rows: 1fr;
-	grid-template-columns: 2fr 1fr;
+	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	height: 60px;
