@@ -12,6 +12,7 @@ const switchSlide = (dir) => {
 	$(`.proj${slideIndex}`).toggleClass('show-slide');
 	slideIndex += dir;
 	//automatically detect how many projects are listed and properly cycle through them
+    //note: will not work if the class of the last li is not formatted 'project proj#'
 	lastSlideIndex = parseInt(
 		$('.projects').find('>li:last-of-type').attr('class').at(-1)
 	);

@@ -108,6 +108,14 @@ a {
 	text-decoration: none;
 }
 
+a:visited {
+	color: white;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
 .aboutProj {
 	background: #d1d1d1;
 	margin: 0 auto;
