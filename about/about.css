@@ -1,7 +1,7 @@
 body {
 	/* background-color: #552929; */
-	background-image: url("https://github.com/josiahse/josiahse.github.io/blob/master/images/background.jpg?raw=true");
-	background-size: cover;
+	background-image: url("../images/background.jpg");
+	object-fit: cover;
 	font-family: 'Montserrat', sans-serif;
 }
 header {
