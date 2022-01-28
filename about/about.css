@@ -67,8 +67,9 @@ i.fa-bars {
     margin-right: 24px;
 }
 
-a {
+a:link {
 	text-decoration: none;
+	color: white;
 }
 
 a:visited {
@@ -77,6 +78,11 @@ a:visited {
 
 a:hover {
 	cursor: pointer;
+}
+
+a.welcome {
+  color: rgb(3, 3, 145);
+  text-decoration: underline;
 }
 
 main {
